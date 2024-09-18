@@ -44,3 +44,13 @@ chmod +x linpeas.sh
 
 # Run linpeas.sh
 ./linpeas.sh
+
+# Download les.sh
+curl -Lo les.sh https://raw.githubusercontent.com/mzet-/linux-exploit-suggester/master/les.sh
+
+# Give execution permission
+chmod +x les.sh
+
+# Run les.sh
+./les.sh
+
