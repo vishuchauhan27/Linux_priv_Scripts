@@ -16,8 +16,8 @@ This repository includes a collection of powerful tools designed to aid in ident
 
 ## 📑 Table of Contents
 
-- [linpeas.sh](#linpeas.sh)
-- [les.sh](#lessh)
+- [linpeas.sh](#-linpeas.sh)
+- [les.sh](#les.sh)
 - [LinEnum](#linenum)
 - [linuxprivchecker.py](#linuxprivcheckerpy)
 - [pspy64](#pspy64)
