@@ -33,13 +33,14 @@ This repository includes a collection of powerful tools designed to aid in ident
 - Comprehensive system enumeration.
 - Identifies weak file permissions, vulnerable services, and potential security risks.
 - Outputs colorful and easy-to-interpret results.
+
 ### Output Interpretation
 The script will display a detailed summary of findings such as:
 
 Kernel vulnerabilities.
-Insecure file permissions.<br>
-SUID binaries.
-Writable directories and much more.
+- Insecure file permissions.
+- SUID binaries.
+- Writable directories and much more.
 ### Usage
 ```bash
 # Download linpeas.sh
