@@ -48,7 +48,7 @@ les.sh (Linux Exploit Suggester) is a lightweight script that enumerates the sys
 - Key Features
 - Fast and easy-to-use.
 - Provides quick recommendations based on the system’s kernel and packages.
-- 
+  
 ### Output Interpretation
 The script outputs a list of known vulnerabilities based on the kernel version and potential exploits that can be used to escalate privileges.
 ### escription
@@ -58,7 +58,7 @@ LinEnum performs an extensive privilege escalation assessment on Linux machines.
 - Systematic enumeration of user, group, and process information.
 - Highlights SUID files, writable directories, and services running as root.
 - Easy-to-understand report generation.
-- 
+  
 ### Output Interpretation
 LinEnum produces a comprehensive report detailing system configurations, security settings, and potential privilege escalation paths.
 Description
@@ -67,7 +67,7 @@ linuxprivchecker.py is a Python-based tool for auditing a Linux system to identi
 - Key Features
 - Checks SUID files, cron jobs, and system-wide writable directories.
 - Detects weak file permissions and misconfigured services.
-- 
+  
  ### Output Interpretation
  The script outputs actionable suggestions for privilege escalation, highlighting weak areas like improperly configured services and exploitable system settings.
 
