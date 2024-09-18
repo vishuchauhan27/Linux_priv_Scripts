@@ -1,129 +1,116 @@
-# 🔒 Linux Privilege Escalation Tools
+# 🔒 **Linux Privilege Escalation Tools**
 
-## 📝 Overview
+## 📝 **Overview**
+This repository provides a curated collection of tools to assist security professionals in identifying privilege escalation opportunities within Linux environments. Each tool serves a distinct purpose, from system enumeration to real-time process monitoring, helping detect misconfigurations that could allow unauthorized access.
 
-This repository includes a collection of powerful tools designed to aid in identifying potential privilege escalation vectors in Linux environments. Each tool serves a unique purpose, from system enumeration to real-time process monitoring, helping security professionals find misconfigurations that could lead to unauthorized access.
-
-### Included Tools:
-
+### 📦 **Included Tools**:
 1. **linpeas.sh**
-2. **les.sh**
+2. **les.sh** (Linux Exploit Suggester)
 3. **LinEnum**
 4. **linuxprivchecker.py**
 5. **pspy64**
 
 ---
 
-## 📑 Table of Contents
+## 📑 **Table of Contents**
 
-- [linpeas.sh](#-linpeas.sh)
-- [les.sh](#les.sh)
-- [LinEnum](#linenum)
-- [linuxprivchecker.py](#linuxprivcheckerpy)
-- [pspy64](#pspy64)
+- [🔍 linpeas.sh](#-linpeassh)
+- [🛡️ les.sh](#-les-sh)
+- [📋 LinEnum](#-linenum)
+- [🐍 linuxprivchecker.py](#-linuxprivcheckerpy)
+- [🖥️ pspy64](#-pspy64)
 
 ---
 
-## 🛠 linpeas.sh
+## 🛠 **linpeas.sh**
 
-### Description
-`linpeas.sh` is an advanced shell script that searches for potential privilege escalation paths on Linux systems. It performs an in-depth check for common misconfigurations and exploits that could be leveraged to gain higher privileges.
+### 🔍 **Description**
+`linpeas.sh` is a comprehensive shell script designed to search for potential privilege escalation paths on Linux systems. It identifies common misconfigurations and vulnerabilities that attackers can exploit to gain elevated privileges.
 
-### Key Features
-- Comprehensive system enumeration.
-- Identifies weak file permissions, vulnerable services, and potential security risks.
-- Outputs colorful and easy-to-interpret results.
+### 🌟 **Key Features**
+- In-depth system enumeration.
+- Identifies weak file permissions, vulnerable services, and other security risks.
+- Provides colorful and easy-to-interpret output.
 
-### Output Interpretation
-The script will display a detailed summary of findings such as:
+### 📊 **Output Interpretation**
+- **Kernel vulnerabilities:** Lists any known kernel issues.
+- **Insecure file permissions:** Highlights files and directories with weak permissions.
+- **SUID binaries:** Displays SUID binaries that may be exploitable.
+- **Writable directories:** Identifies directories writable by unauthorized users.
 
-- Kernel vulnerabilities.
-- Insecure file permissions.
-- SUID binaries.
-- Writable directories and much more.
-  
-### Description
-les.sh (Linux Exploit Suggester) is a lightweight script that enumerates the system for known vulnerabilities based on kernel and distribution information. It provides a quick way to check for security misconfigurations.
+---
 
-- Key Features
-- Fast and easy-to-use.
-- Provides quick recommendations based on the system’s kernel and packages.
-  
-### Output Interpretation
-The script outputs a list of known vulnerabilities based on the kernel version and potential exploits that can be used to escalate privileges.
-### escription
-LinEnum performs an extensive privilege escalation assessment on Linux machines. It is ideal for obtaining a complete overview of system security, listing misconfigurations, and discovering exploitable flaws.
+## 🛡️ **les.sh**
 
-- Key Features
-- Systematic enumeration of user, group, and process information.
-- Highlights SUID files, writable directories, and services running as root.
-- Easy-to-understand report generation.
-  
-### Output Interpretation
-LinEnum produces a comprehensive report detailing system configurations, security settings, and potential privilege escalation paths.
-Description
-linuxprivchecker.py is a Python-based tool for auditing a Linux system to identify privilege escalation opportunities. The script is particularly useful for system administrators and penetration testers.
+### 🔍 **Description**
+`les.sh` (Linux Exploit Suggester) is a lightweight script that scans a system for known vulnerabilities based on its kernel and distribution version. It's a quick way to assess security risks on Linux systems.
 
-- Key Features
-- Checks SUID files, cron jobs, and system-wide writable directories.
-- Detects weak file permissions and misconfigured services.
-  
- ### Output Interpretation
- The script outputs actionable suggestions for privilege escalation, highlighting weak areas like improperly configured services and exploitable system settings.
+### 🌟 **Key Features**
+- Fast, lightweight, and easy-to-use.
+- Suggests exploits based on the system's kernel and software packages.
 
- ### Description
-pspy64 is a real-time process monitor that allows you to see commands executed by other users (including root) without needing elevated privileges. This tool is excellent for monitoring cron jobs, services, or other processes that could be leveraged to escalate privileges.
+### 📊 **Output Interpretation**
+- Outputs a list of known vulnerabilities and suggested exploits based on the kernel version and installed packages.
 
-- Key Features
-- Monitors and captures system process executions.
-- No root permissions required for execution.
-- Detects hidden or low-privilege processes that can lead to system vulnerabilities.
-  ### Output Interpretation
-pspy64 will output a real-time log of system processes, helping identify exploitable commands or cron jobs run by privileged users.
-### Usage
+---
+
+## 📋 **LinEnum**
+
+### 🔍 **Description**
+`LinEnum` is an advanced script that performs an extensive assessment of Linux systems, helping identify potential privilege escalation vectors by systematically checking the system's configuration.
+
+### 🌟 **Key Features**
+- Comprehensive enumeration of users, groups, and running processes.
+- Identifies SUID files, writable directories, and services running as root.
+- Generates detailed and easy-to-understand reports.
+
+### 📊 **Output Interpretation**
+- Provides a thorough report of system configurations, security settings, and misconfigurations that could be exploited.
+
+---
+
+## 🐍 **linuxprivchecker.py**
+
+### 🔍 **Description**
+`linuxprivchecker.py` is a Python-based script for auditing Linux systems to identify potential privilege escalation opportunities. It checks for weak file permissions, cron jobs, and misconfigured services.
+
+### 🌟 **Key Features**
+- Identifies SUID files, cron jobs, and world-writable directories.
+- Detects misconfigured services and weak system settings.
+
+### 📊 **Output Interpretation**
+- Provides a list of actionable items such as misconfigured services or improperly set file permissions that may allow privilege escalation.
+
+---
+
+## 🖥️ **pspy64**
+
+### 🔍 **Description**
+`pspy64` is a real-time process monitoring tool that allows you to observe processes executed by other users (including root) without elevated privileges. This tool is especially useful for detecting cron jobs or hidden processes that could be exploited.
+
+### 🌟 **Key Features**
+- Monitors system process executions in real-time.
+- Requires no root permissions for execution.
+- Helps uncover hidden or low-privilege processes that could lead to system vulnerabilities.
+
+### 📊 **Output Interpretation**
+- Provides a real-time log of system processes, highlighting potential security risks such as cron jobs or user-executed commands.
+
+---
+
+## ⚙️ **Usage**
+
 ```bash
 # Download linpeas.sh
 curl -Lo linpeas.sh https://github.com/carlospolop/PEASS-ng/releases/download/refs/tags/20230918-linpeas-ng-release/linpeas.sh
+```
 
 # Give execution permission
+```bash
 chmod +x linpeas.sh
+```
 
 # Run linpeas.sh
+```bash
 ./linpeas.sh
-
-# Download les.sh
-curl -Lo les.sh https://raw.githubusercontent.com/mzet-/linux-exploit-suggester/master/les.sh
-
-# Give execution permission
-chmod +x les.sh
-
-# Run les.sh
-./les.sh
-# Download LinEnum
-curl -Lo LinEnum.sh https://raw.githubusercontent.com/rebootuser/LinEnum/master/LinEnum.sh
-
-# Give execution permission
-chmod +x LinEnum.sh
-
-# Run LinEnum with report generation
-./LinEnum.sh -r report.txt
-# Download linuxprivchecker.py
-curl -Lo linuxprivchecker.py https://raw.githubusercontent.com/sleventyeleven/linuxprivchecker/master/linuxprivchecker.py
-
-# Run the script
-python linuxprivchecker.py
-# Download pspy64
-curl -Lo pspy64 https://github.com/DominicBreuker/pspy/releases/download/v1.2.1/pspy64
-
-# Give execution permission
-chmod +x pspy64
-
-# Run pspy64
-./pspy64
-
-⚠️ Legal Disclaimer
-These tools are intended for educational and ethical testing purposes only. Always ensure you have explicit permission before using these scripts on any system.
-
-📚 Conclusion
-The tools included in this repository are invaluable for penetration testers and security auditors when assessing a Linux system for potential privilege escalation vulnerabilities. Use them responsibly and follow ethical guidelines while conducting any security assessments.
-
+```
