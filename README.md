@@ -53,4 +53,25 @@ chmod +x les.sh
 
 # Run les.sh
 ./les.sh
+# Download LinEnum
+curl -Lo LinEnum.sh https://raw.githubusercontent.com/rebootuser/LinEnum/master/LinEnum.sh
+
+# Give execution permission
+chmod +x LinEnum.sh
+
+# Run LinEnum with report generation
+./LinEnum.sh -r report.txt
+# Download linuxprivchecker.py
+curl -Lo linuxprivchecker.py https://raw.githubusercontent.com/sleventyeleven/linuxprivchecker/master/linuxprivchecker.py
+
+# Run the script
+python linuxprivchecker.py
+# Download pspy64
+curl -Lo pspy64 https://github.com/DominicBreuker/pspy/releases/download/v1.2.1/pspy64
+
+# Give execution permission
+chmod +x pspy64
+
+# Run pspy64
+./pspy64
 
