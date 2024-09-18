@@ -6,7 +6,7 @@ This repository provides a curated collection of tools to assist security profes
 ### 📦 **Included Tools**:
 1. **linpeas.sh**
 2. **les.sh** (Linux Exploit Suggester)
-3. **LinEnum**
+3. **LinEnum** (Linux Enumeration)
 4. **linuxprivchecker.py**
 5. **pspy64**
 
@@ -18,7 +18,7 @@ This repository provides a curated collection of tools to assist security profes
 - [🛡️ les.sh](#-lesh)
 - [📋 LinEnum](#-linenum)
 - [🐍 linuxprivchecker.py](#-linuxprivcheckerpy)
-- [🖥️ pspy64](#-pspy64)
+- [🖥️ pspy64](#pspy64)
 
 ---
 
