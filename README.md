@@ -102,7 +102,7 @@ This repository provides a curated collection of tools to assist security profes
 
 ```bash
 # Download linpeas.sh
-curl -Lo linpeas.sh https://github.com/carlospolop/PEASS-ng/releases/download/refs/tags/20230918-linpeas-ng-release/linpeas.sh
+git clone https://github.com/vishuchauhan27/linpeas.sh
 ```
 
 # Give execution permission
