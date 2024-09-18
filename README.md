@@ -37,7 +37,7 @@ This repository includes a collection of powerful tools designed to aid in ident
 The script will display a detailed summary of findings such as:
 
 Kernel vulnerabilities.
-Insecure file permissions.
+Insecure file permissions.<br>
 SUID binaries.
 Writable directories and much more.
 ### Usage
