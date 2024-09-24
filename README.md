@@ -4,11 +4,11 @@
 This repository provides a curated collection of tools to assist security professionals in identifying privilege escalation opportunities within Linux environments. Each tool serves a distinct purpose, from system enumeration to real-time process monitoring, helping detect misconfigurations that could allow unauthorized access.
 
 ### 📦 **Included Tools**:
-1. **[linpeas.sh](#linpeas.sh)**
-2. **[les.sh](#les.sh)** (Linux Exploit Suggester)
-3. **[LinEnum](#linenum)** (Linux Enumeration)
-4. **[linuxprivchecker.py](#linuxprivchecker.py)**
-5. **[pspy64](#pspy64)**
+1. **[linpeas.sh](#-linpeas.sh)**
+2. **[les.sh](#-les.sh)** (Linux Exploit Suggester)
+3. **[LinEnum](#-linenum)** (Linux Enumeration)
+4. **[linuxprivchecker.py](#-linuxprivchecker.py)**
+5. **[pspy64](#-pspy64)**
 
 ---
 
