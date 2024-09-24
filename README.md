@@ -8,7 +8,7 @@ This repository provides a curated collection of tools to assist security profes
 2. **[les.sh](#-lessh)** (Linux Exploit Suggester)
 3. **[LinEnum](#-linenum)** (Linux Enumeration)
 4. **[linuxprivchecker.py](#-linuxprivcheckerpy)**
-5. **[pspy64](#-pspy64)**
+5. **[pspy.64](#-pspy64)**
 
 ---
 
@@ -27,8 +27,6 @@ This repository provides a curated collection of tools to assist security profes
 - **Insecure file permissions:** Highlights files and directories with weak permissions.
 - **SUID binaries:** Displays SUID binaries that may be exploitable.
 - **Writable directories:** Identifies directories writable by unauthorized users.
-
----
 
 ---
 
@@ -78,7 +76,7 @@ This repository provides a curated collection of tools to assist security profes
 ## 🖥️ **pspy64**
 
 ### 🔍 **Description**
-`pspy64` is a real-time process monitoring tool that allows you to observe processes executed by other users (including root) without elevated privileges. This tool is especially useful for detecting cron jobs or hidden processes that could be exploited.
+`pspy.64` is a real-time process monitoring tool that allows you to observe processes executed by other users (including root) without elevated privileges. This tool is especially useful for detecting cron jobs or hidden processes that could be exploited.
 
 ### 🌟 **Key Features**
 - Monitors system process executions in real-time.
