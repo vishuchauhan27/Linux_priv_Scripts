@@ -43,7 +43,7 @@ This repository provides a curated collection of tools to assist security profes
 ## 🛡️ **les.sh**
 
 ### 🔍 **Description**
-`lessh` (Linux Exploit Suggester) is a lightweight script that scans a system for known vulnerabilities based on its kernel and distribution version. It's a quick way to assess security risks on Linux systems.
+`les..sh` (Linux Exploit Suggester) is a lightweight script that scans a system for known vulnerabilities based on its kernel and distribution version. It's a quick way to assess security risks on Linux systems.
 
 ### 🌟 **Key Features**
 - Fast, lightweight, and easy-to-use.
