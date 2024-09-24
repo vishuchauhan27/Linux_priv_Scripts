@@ -76,7 +76,7 @@ This repository provides a curated collection of tools to assist security profes
 ## 🖥️ **Pspy64**
 
 ### 🔍 **Description**
-`pspy64` is a real-time process monitoring tool that allows you to observe processes executed by other users (including root) without elevated privileges. This tool is especially useful for detecting cron jobs or hidden processes that could be exploited.
+`Pspy64` is a real-time process monitoring tool that allows you to observe processes executed by other users (including root) without elevated privileges. This tool is especially useful for detecting cron jobs or hidden processes that could be exploited.
 
 ### 🌟 **Key Features**
 - Monitors system process executions in real-time.
