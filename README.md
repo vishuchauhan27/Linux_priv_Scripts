@@ -7,7 +7,7 @@ This repository provides a curated collection of tools to assist security profes
 1. **[linpeas.sh](#-linpeassh)**
 2. **[les.sh](#-lessh)** (Linux Exploit Suggester)
 3. **[LinEnum](#-linenum)** (Linux Enumeration)
-4. **[linuxprivchecker.py](#-linuxprivchecker.py)**
+4. **[linuxprivchecker.py](#-linuxprivcheckerpy)**
 5. **[pspy64](#-pspy64)**
 
 ---
@@ -27,6 +27,8 @@ This repository provides a curated collection of tools to assist security profes
 - **Insecure file permissions:** Highlights files and directories with weak permissions.
 - **SUID binaries:** Displays SUID binaries that may be exploitable.
 - **Writable directories:** Identifies directories writable by unauthorized users.
+
+---
 
 ---
 
