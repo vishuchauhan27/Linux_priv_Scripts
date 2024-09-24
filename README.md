@@ -8,7 +8,7 @@ This repository provides a curated collection of tools to assist security profes
 2. **[les.sh](#-lessh)** (Linux-Exploit-Suggester)
 3. **[LinEnum](#-linenum)** (Linux-Enumeration)
 4. **[linuxprivchecker.py](#-linuxprivcheckerpy)**
-5. **[Pspy64](#-pspy64)**
+5. **[Pspy64](#-Pspy64)**
 
 ---
 
