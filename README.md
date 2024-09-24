@@ -8,7 +8,7 @@ This repository provides a curated collection of tools to assist security profes
 2. **[les.sh](#-lessh)** (Linux-Exploit-Suggester)
 3. **[LinEnum](#-linenum)** (Linux-Enumeration)
 4. **[linuxprivchecker.py](#-linuxprivcheckerpy)**
-5. **[pspy64](#-pspy64)**
+5. **[Pspy64](#-pspy64)**
 
 ---
 
@@ -73,7 +73,7 @@ This repository provides a curated collection of tools to assist security profes
 
 ---
 
-## 🖥️ **pspy64**
+## 🖥️ **Pspy64**
 
 ### 🔍 **Description**
 `pspy64` is a real-time process monitoring tool that allows you to observe processes executed by other users (including root) without elevated privileges. This tool is especially useful for detecting cron jobs or hidden processes that could be exploited.
