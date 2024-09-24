@@ -4,11 +4,16 @@
 This repository provides a curated collection of tools to assist security professionals in identifying privilege escalation opportunities within Linux environments. Each tool serves a distinct purpose, from system enumeration to real-time process monitoring, helping detect misconfigurations that could allow unauthorized access.
 
 ### 📦 **Included Tools**:
-1. **linpeas.sh**
-2. **les.sh** (Linux Exploit Suggester)
-3. **LinEnum** (Linux Enumeration)
-4. **linuxprivchecker.py**
-5. **pspy64**
+1. **[linpeas.sh](https://github.com/carlospolop/PEASS-ng/tree/master/linPEAS)**  
+   A script to search for potential privilege escalation paths on Linux systems.
+2. **[les.sh](https://github.com/mzet-/linux-exploit-suggester)** (Linux Exploit Suggester)  
+   A lightweight script that scans a system for known vulnerabilities based on its kernel and distribution version.
+3. **[LinEnum](https://github.com/rebootuser/LinEnum)**  
+   An advanced script for an extensive assessment of Linux systems to identify privilege escalation vectors.
+4. **[linuxprivchecker.py](https://github.com/sleventyeleven/linuxprivchecker)**  
+   A Python-based script that audits Linux systems for privilege escalation opportunities.
+5. **[pspy64](https://github.com/DominicBreuker/pspy)**  
+   A real-time process monitoring tool that observes processes executed by other users without elevated privileges.
 
 ---
 
@@ -18,7 +23,7 @@ This repository provides a curated collection of tools to assist security profes
 - [🛡️ les.sh](#-lessh)
 - [📋 LinEnum](#-linenum)
 - [🐍 linuxprivchecker.py](#-linuxprivcheckerpy)
-- [🖥️ pspy64](#-pspy-64)
+- [🖥️ pspy64](#-pspy64)
 
 ---
 
@@ -43,7 +48,7 @@ This repository provides a curated collection of tools to assist security profes
 ## 🛡️ **les.sh**
 
 ### 🔍 **Description**
-`les..sh` (Linux Exploit Suggester) is a lightweight script that scans a system for known vulnerabilities based on its kernel and distribution version. It's a quick way to assess security risks on Linux systems.
+`les.sh` (Linux Exploit Suggester) is a lightweight script that scans a system for known vulnerabilities based on its kernel and distribution version. It's a quick way to assess security risks on Linux systems.
 
 ### 🌟 **Key Features**
 - Fast, lightweight, and easy-to-use.
@@ -103,14 +108,3 @@ This repository provides a curated collection of tools to assist security profes
 ```bash
 # Download linpeas.sh
 git clone https://github.com/vishuchauhan27/linpeas.sh
-```
-
-# Give execution permission
-```bash
-chmod +x linpeas.sh
-```
-
-# Run linpeas.sh
-```bash
-./linpeas.sh
-```
