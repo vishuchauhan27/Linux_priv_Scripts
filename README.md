@@ -18,7 +18,7 @@ This repository provides a curated collection of tools to assist security profes
 - [🛡️ les.sh](#--lessh)
 - [📋 LinEnum](#-linenum)
 - [🐍 linuxprivchecker.py](#-linuxprivcheckerpy)
-- [🖥️ pspy64](pspy64)
+- [🖥️ pspy64](#pspy)
 
 ---
 
