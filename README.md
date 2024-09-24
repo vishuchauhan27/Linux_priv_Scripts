@@ -4,11 +4,13 @@
 This repository provides a curated collection of tools to assist security professionals in identifying privilege escalation opportunities within Linux environments. Each tool serves a distinct purpose, from system enumeration to real-time process monitoring, helping detect misconfigurations that could allow unauthorized access.
 
 ### 📦 **Included Tools**:
-1. **linpeas.sh**
-2. **les.sh** (Linux Exploit Suggester)
-3. **LinEnum** (Linux Enumeration)
-4. **linuxprivchecker.py**
-5. **pspy64**
+1. **[linpeas.sh](#linpeas.sh)**
+2. **[les.sh](#les.sh)** (Linux Exploit Suggester)
+3. **[LinEnum](#linenum)** (Linux Enumeration)
+4. **[linuxprivchecker.py](#linuxprivchecker.py)**
+5. **[pspy64](#pspy64)**
+
+---
 
 ## 🛠 **linpeas.sh**
 
@@ -31,7 +33,7 @@ This repository provides a curated collection of tools to assist security profes
 ## 🛡️ **les.sh**
 
 ### 🔍 **Description**
-`les..sh` (Linux Exploit Suggester) is a lightweight script that scans a system for known vulnerabilities based on its kernel and distribution version. It's a quick way to assess security risks on Linux systems.
+`les.sh` (Linux Exploit Suggester) is a lightweight script that scans a system for known vulnerabilities based on its kernel and distribution version. It's a quick way to assess security risks on Linux systems.
 
 ### 🌟 **Key Features**
 - Fast, lightweight, and easy-to-use.
@@ -91,14 +93,3 @@ This repository provides a curated collection of tools to assist security profes
 ```bash
 # Download linpeas.sh
 git clone https://github.com/vishuchauhan27/linpeas.sh
-```
-
-# Give execution permission
-```bash
-chmod +x linpeas.sh
-```
-
-# Run linpeas.sh
-```bash
-./linpeas.sh
-```
