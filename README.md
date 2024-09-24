@@ -10,18 +10,6 @@ This repository provides a curated collection of tools to assist security profes
 4. **linuxprivchecker.py**
 5. **pspy64**
 
----
-
-## 📑 **Table of Contents**
-
-- [🔍 linpeas.sh](#-linpeassh)
-- [🛡️ les.sh](#-lessh)
-- [📋 LinEnum](#-linenum)
-- [🐍 linuxprivchecker.py](#-linuxprivcheckerpy)
-- [🖥️ pspy64](#-pspy-64)
-
----
-
 ## 🛠 **linpeas.sh**
 
 ### 🔍 **Description**
