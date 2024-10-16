@@ -88,8 +88,3 @@ This repository provides a curated collection of tools to assist security profes
 
 ---
 
-## ⚙️ **Usage**
-
-```bash
-# Download linpeas.sh
-git clone https://github.com/vishuchauhan27/linpeas.sh
